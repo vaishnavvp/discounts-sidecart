@@ -55,14 +55,14 @@ export const useCartStore = create<StoreState>((set, get) => ({
   catalog: [
     {
       id: "c1",
-      title: "Discount name",
+      title: "250 Euro Discount",
       summary: "- €250.00 one time",
       discount: { type: "one-time", mode: "amount", value: 250 },
       enabled: false,
     },
     {
       id: "c2",
-      title: "Discount name",
+      title: "5 percent Discount",
       summary: "- 5 % one time",
       discount: { type: "one-time", mode: "percent", value: 5 },
       enabled: false,
@@ -70,14 +70,14 @@ export const useCartStore = create<StoreState>((set, get) => ({
     },
     {
       id: "c3",
-      title: "Discount name",
+      title: "250 Euro Monthly Discount",
       summary: "- €250.00 monthly",
       discount: { type: "monthly", mode: "amount", value: 250, months: 12 },
       enabled: false,
     },
     {
       id: "c4",
-      title: "Discount name",
+      title: "25 percent Monthly Discount",
       summary: "- 25 % monthly first 3 months",
       discount: { type: "monthly", mode: "percent", value: 25, months: 3 },
       enabled: false,

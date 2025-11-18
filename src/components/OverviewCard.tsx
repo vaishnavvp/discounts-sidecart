@@ -36,7 +36,7 @@ export default function OverviewCard() {
   const hasShortTerm = hasMonthly && N > 0;
 
   return (
-    <aside className="rounded-xl border border-gray-200 bg-white shadow-sm overflow-hidden">
+    <aside className="rounded-xl border border-gray-200 text-rose-700 bg-white shadow-sm overflow-hidden">
       <div className="px-4 pt-4">
         <div className="mx-auto mb-2 h-10 w-10 flex items-center justify-center rounded-full overflow-hidden">
           <img
@@ -48,22 +48,23 @@ export default function OverviewCard() {
       </div>
 
       <div className="px-4 pb-3">
-        <h3 className="text-lg font-semibold text-[#8A8A8A] mb-2">Overview</h3>
+        <h3 className="text-lg font-semibold text-rose-700 mb-2">Overview</h3>
 
         <div className="flex items-start justify-between text-sm">
-          <span className="text-gray-700">Webasto Pure II laadpaal type 2</span>
+          <span className="">Tesla Charging Dock</span>
           <span>{moneyEU(baseOneTime)}</span>
         </div>
         <div className="mt-1 flex items-start justify-between text-sm">
-          <span className="italic text-gray-500">Maandelijkse prijs</span>
+          <span className="italic">Monthly price
+</span>
           <span>{moneyEU(baseMonthly)}</span>
         </div>
 
-        <button className="mt-2 text-[13px] text-[#26B7CD] hover:underline">Edit</button>
+        <button className="mt-2 text-[13px] text-rose-700 hover:underline">Edit</button>
       </div>
       <div className="border-t border-gray-200 " />
       <div className="flex items-center justify-between bg-[#eaf6fa] px-4 py-3 text-sm">
-        <span className="font-medium text-gray-700">Eventually per month excl. btw</span>
+        <span className="font-medium">Eventually per month excl. btw</span>
         <span className="font-medium">{moneyEU(perAfter)}</span>
       </div>
       <div className="border-gray-200" />

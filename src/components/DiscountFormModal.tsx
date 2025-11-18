@@ -103,7 +103,7 @@ export default function DiscountFormModal({
 <div className="mt-1 flex w-full">
   <select
     aria-label="discount-mode"
-    className="h-10 w-16 rounded-l border border-gray-300 bg-gray-100 text-gray-700 text-sm focus:outline-none focus:ring-1 focus:ring-[#26B7CD]"
+    className="h-10 w-16 rounded-l border border-gray-300 bg-gray-100 text-gray-700 text-sm focus:outline-none focus:ring-1 focus:ring-[#cd2626]"
     value={mode}
     onChange={(e) => setMode(e.target.value as DiscountMode)}
   >
@@ -152,13 +152,13 @@ export default function DiscountFormModal({
         <div className="mt-6 flex items-center justify-between">
           <button
             onClick={onClose}
-            className="text-sky-600 hover:underline text-sm"
+            className="text-rose-700 hover:underline text-sm"
           >
             Cancel
           </button>
           <button
             onClick={onSave}
-            className="bg-brand-teal px-5 py-2 text-white text-sm font-medium hover:bg-[#0ea3ae]"
+            className="bg-rose-700 px-5 py-2 text-white text-sm font-medium hover:bg-[#ae0e0e]"
           >
             {edit ? "Save" : "Add"}
           </button>

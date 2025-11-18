@@ -7,12 +7,12 @@ export default function DiscountsPanel() {
 
   return (
     <section className="overflow-hidden border bg-white">
-      <div className="flex items-center justify-between bg-brand-teal px-5 py-3 text-white">
+      <div className="flex items-center justify-between bg-rose-700 px-5 py-3 text-white">
         <h2 className="font-medium">Discounts</h2>
       </div>
 
       <div className="flex justify-end px-5 py-3">
-        <button className="text-[#26B7CD] text-sm" onClick={() => setOpen(true)}>
+        <button className="text-rose-700 text-sm" onClick={() => setOpen(true)}>
           + Add manual discount
         </button>
       </div>

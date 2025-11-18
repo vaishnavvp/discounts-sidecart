@@ -13,7 +13,7 @@ export default function Toggle({
       onClick={() => onChange(!checked)}
       className={clsx(
         "relative h-5 w-9 transition-all duration-200 ease-in-out",
-        checked ? "bg-[#16B4C2]" : "bg-gray-300"
+        checked ? "bg-rose-700" : "bg-gray-300"
       )}
       aria-pressed={checked}
     >

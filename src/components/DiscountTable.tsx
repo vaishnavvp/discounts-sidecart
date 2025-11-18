@@ -122,8 +122,8 @@ export default function DiscountTable() {
       ))}
 
       <div className="flex items-center justify-between px-6 py-4 border-t border-brand-line text-sm">
-        <button className="text-[#26B7CD] hover:underline">Previous</button>
-        <button className="bg-[#26B7CD] px-4 py-2 text-white hover:bg-sky-700">
+        <button className="text-rose-700 hover:underline">Previous</button>
+        <button className="bg-rose-700 px-4 py-2 text-white hover:bg-sky-700">
           Next
         </button>
       </div>

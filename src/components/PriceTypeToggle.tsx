@@ -39,7 +39,7 @@ export default function PriceTypeToggle({ value, onChange }: Props) {
         className={[
           "flex w-48 items-center justify-between rounded-md px-6 py-4 transition-colors",
           value === "one-time"
-            ? "bg-[#26B7CD] text-white"
+            ? "bg-[#cd2626] text-white"
             : "bg-[#ECECEC] text-[#767676]",
         ].join(" ")}
       >
@@ -69,7 +69,7 @@ export default function PriceTypeToggle({ value, onChange }: Props) {
         className={[
           "flex w-48 items-center justify-between rounded-md px-6 py-4 transition-colors",
           value === "monthly"
-            ? "bg-[#26B7CD] text-white"
+            ? "bg-[#cd2626] text-white"
             : "bg-[#ECECEC] text-[#767676]",
         ].join(" ")}
       >
